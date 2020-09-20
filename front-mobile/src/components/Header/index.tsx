@@ -10,8 +10,6 @@ const Header = () => {
   const handleOnPress = () => {
     navigation.navigate('Home');
   }
-
-  
     return (
       <TouchableWithoutFeedback onPress={handleOnPress}>
           <View style={styles.header}>
